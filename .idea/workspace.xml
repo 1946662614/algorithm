@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="LeetCode70">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/LC746.java" afterDir="false" />
+    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="LeetCode746">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/LC62.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +63,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LC746">
+  <component name="RunManager" selected="Application.LC62">
     <configuration name="LC509" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xj.sft.DP.LC509" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xj.sft.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.sft.DP.LC62" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -105,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC62" />
         <item itemvalue="Application.LC746" />
         <item itemvalue="Application.LC70" />
         <item itemvalue="Application.LC509" />
@@ -122,6 +136,7 @@
       <workItem from="1676864569038" duration="4513000" />
       <workItem from="1676948566832" duration="2719000" />
       <workItem from="1677052050848" duration="813000" />
+      <workItem from="1677140013107" duration="1190000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode509">
       <created>1676865380880</created>
@@ -144,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676953398541</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="LeetCode746">
+      <created>1677140071239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677140071239</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LeetCode509" />
     <MESSAGE value="LeetCode70" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode70" />
+    <MESSAGE value="LeetCode746" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode746" />
   </component>
 </project>
