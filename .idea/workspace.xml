@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="LeetCode63">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/LC343.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xj/test/sushu/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xj/test/sushu/data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xj/test/sushu/filter.java" afterDir="false" />
+    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="LeetCode343">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/LC96.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +164,8 @@
       <workItem from="1677160403050" duration="35000" />
       <workItem from="1677222493676" duration="896000" />
       <workItem from="1677426654294" duration="292000" />
-      <workItem from="1677505200688" duration="850000" />
+      <workItem from="1677505200688" duration="1175000" />
+      <workItem from="1677570929922" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode509">
       <created>1676865380880</created>
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677223320134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LeetCode343">
+      <created>1677506307613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677506307613</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +269,7 @@
     <MESSAGE value="LeetCode746" />
     <MESSAGE value="LeetCode62" />
     <MESSAGE value="LeetCode63" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode63" />
+    <MESSAGE value="LeetCode343" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode343" />
   </component>
 </project>
