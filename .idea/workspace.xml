@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="LeetCode343">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/LC96.java" afterDir="false" />
+    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="LeetCode96">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/WeightBagProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <recent name="com.xj.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LC343">
+  <component name="RunManager" selected="Application.WeightBagProblem">
     <configuration name="Cal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xj.test.Cal" />
       <module name="algorithm" />
@@ -111,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.sft.DP.LC62" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xj.sft.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LC63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xj.sft.DP.LC63" />
       <module name="algorithm" />
@@ -137,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeightBagProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.sft.DP.WeightBagProblem" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xj.sft.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeightBagProblem" />
         <item itemvalue="Application.LC343" />
         <item itemvalue="Application.LC63" />
         <item itemvalue="Application.Cal" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.LC62" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,8 @@
       <workItem from="1677222493676" duration="896000" />
       <workItem from="1677426654294" duration="292000" />
       <workItem from="1677505200688" duration="1175000" />
-      <workItem from="1677570929922" duration="307000" />
+      <workItem from="1677570929922" duration="595000" />
+      <workItem from="1677660238647" duration="1115000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode509">
       <created>1676865380880</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677506307613</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LeetCode96">
+      <created>1677571491063</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677571491063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +278,7 @@
     <MESSAGE value="LeetCode62" />
     <MESSAGE value="LeetCode63" />
     <MESSAGE value="LeetCode343" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode343" />
+    <MESSAGE value="LeetCode96" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode96" />
   </component>
 </project>
