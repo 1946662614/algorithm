@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="LeetCode96">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/WeightBagProblem.java" afterDir="false" />
+    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="01背包问题模拟">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/WeightBagProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/WeightBagProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +166,8 @@
       <workItem from="1677426654294" duration="292000" />
       <workItem from="1677505200688" duration="1175000" />
       <workItem from="1677570929922" duration="595000" />
-      <workItem from="1677660238647" duration="1115000" />
+      <workItem from="1677660238647" duration="1145000" />
+      <workItem from="1677823665900" duration="2527000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode509">
       <created>1676865380880</created>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677571491063</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="01背包问题模拟">
+      <created>1677661373043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677661373043</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +287,7 @@
     <MESSAGE value="LeetCode63" />
     <MESSAGE value="LeetCode343" />
     <MESSAGE value="LeetCode96" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode96" />
+    <MESSAGE value="01背包问题模拟" />
+    <option name="LAST_COMMIT_MESSAGE" value="01背包问题模拟" />
   </component>
 </project>

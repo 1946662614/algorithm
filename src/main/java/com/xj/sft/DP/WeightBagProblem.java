@@ -19,6 +19,7 @@ public class WeightBagProblem {
         for (int i = weight[0]; i < bagSize; i++) {
             dp[0][i] = value[0];
         }
+        
         // 填充dp数组
         for (int i = 1; i < weight.length; i++) {
             for (int j = 1; j <= bagSize; j++) {
@@ -41,6 +42,8 @@ public class WeightBagProblem {
             }
         }
     
+       
+    
         // 打印dp数组
         for (int i = 0; i < goods; i++) {
             for (int j = 0; j <= bagSize; j++) {
@@ -50,11 +53,30 @@ public class WeightBagProblem {
         }
     }
     
+    /**
+     * 滚动数组解决01背包问题
+     * @param weight
+     * @param value
+     * @param bagSize
+     */
+    public static void testWeightBagProblem1(int[] weight, int[] value, int bagSize){
+        int wlen = weight.length;
+        
+        int[] dp = new int[bagSize + 1];
+    
+        for (int i = 0; i < wlen; i++) {
+            for (int j = bagSize; j >= weight[i]; j--) {
+                dp[j] = Math.max(dp[j], dp[j - weight[i]] + value[i]);
+            }
+        }
+    }
+    
     public static void main(String[] args) {
         int[] weight = {1,3,4};
         int[] value = {15,20,30};
         int bagSize = 4;
         testWeightBagProblem(weight,value,bagSize);
+        testWeightBagProblem1(weight,value,bagSize);
     }
 }
 
