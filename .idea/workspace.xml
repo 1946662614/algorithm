@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="滚动数组解决01背包问题">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/LC416.java" afterDir="false" />
+    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="leetcode416">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/LC1049.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <recent name="com.xj.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeightBagProblem">
+  <component name="RunManager" selected="Application.LC1049">
     <configuration name="Cal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xj.test.Cal" />
       <module name="algorithm" />
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.test.Calculator" />
+    <configuration name="LC1049" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.sft.DP.LC1049" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xj.test.*" />
+          <option name="PATTERN" value="com.xj.sft.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC1049" />
         <item itemvalue="Application.WeightBagProblem" />
         <item itemvalue="Application.LC343" />
         <item itemvalue="Application.LC63" />
         <item itemvalue="Application.Cal" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,8 @@
       <workItem from="1677570929922" duration="595000" />
       <workItem from="1677660238647" duration="1145000" />
       <workItem from="1677823665900" duration="2923000" />
-      <workItem from="1677918884028" duration="850000" />
+      <workItem from="1677918884028" duration="952000" />
+      <workItem from="1678008282428" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode509">
       <created>1676865380880</created>
@@ -240,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677827886482</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="leetcode416">
+      <created>1677919748124</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677919748124</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +305,7 @@
     <MESSAGE value="LeetCode96" />
     <MESSAGE value="01背包问题模拟" />
     <MESSAGE value="滚动数组解决01背包问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="滚动数组解决01背包问题" />
+    <MESSAGE value="leetcode416" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode416" />
   </component>
 </project>
