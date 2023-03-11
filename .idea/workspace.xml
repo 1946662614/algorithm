@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="leetcode1049">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/DP/LC494.java" afterDir="false" />
+    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="leetcode494">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/sorting_algorithm/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +71,13 @@
       <recent name="com.xj.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LC1049">
-    <configuration name="Cal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.test.Cal" />
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.sft.sorting_algorithm.BubbleSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xj.test.*" />
+          <option name="PATTERN" value="com.xj.sft.sorting_algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.sft.DP.LC63" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xj.sft.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WeightBagProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xj.sft.DP.WeightBagProblem" />
       <module name="algorithm" />
@@ -137,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.test.login" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.login" />
         <item itemvalue="Application.LC1049" />
         <item itemvalue="Application.WeightBagProblem" />
         <item itemvalue="Application.LC343" />
-        <item itemvalue="Application.LC63" />
-        <item itemvalue="Application.Cal" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,10 @@
       <workItem from="1677823665900" duration="2923000" />
       <workItem from="1677918884028" duration="952000" />
       <workItem from="1678008282428" duration="957000" />
-      <workItem from="1678092550809" duration="304000" />
+      <workItem from="1678092550809" duration="573000" />
+      <workItem from="1678162776764" duration="606000" />
+      <workItem from="1678349051770" duration="5343000" />
+      <workItem from="1678510021665" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode509">
       <created>1676865380880</created>
@@ -256,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678008973151</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="leetcode494">
+      <created>1678093098483</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678093098483</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +325,7 @@
     <MESSAGE value="滚动数组解决01背包问题" />
     <MESSAGE value="leetcode416" />
     <MESSAGE value="leetcode1049" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode1049" />
+    <MESSAGE value="leetcode494" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode494" />
   </component>
 </project>
