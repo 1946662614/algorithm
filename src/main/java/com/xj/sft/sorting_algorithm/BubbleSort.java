@@ -27,7 +27,7 @@ public class BubbleSort {
     }
     
     /**
-     * 优化版
+     * 优化版2
      * @param array
      */
     private static void sort2(int[] array) {
@@ -48,10 +48,40 @@ public class BubbleSort {
         }
     }
     
+    /**
+     * 优化版3
+     * @param array
+     */
+    private static void sort3(int[] array) {
+        //记录最后一次交换的位置
+        int lastExchangeIndex = 0;
+        //无序数组的边界，每次只需2遍历到这个位置
+        int sortBorder = array.length - 1;
+    
+        int tmp = 0;
+        for (int i = 0; i < array.length - 1; i++) {
+            boolean isSorted = true;
+            for (int j = 0; j < sortBorder; j++) {
+                if (array[j] > array[j + 1]) {
+                    tmp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = tmp;
+                    isSorted = false;
+                    lastExchangeIndex = j;
+                }
+            }
+            sortBorder = lastExchangeIndex;
+            if (isSorted) {
+                break;
+            }
+        }
+    }
+    
     public static void main(String[] args) {
-        int[] array = new int[]{2,4,5,8,1,6,9,0,3,7};
+        int[] array = new int[]{2,8,4,6,7,1,3,0,9};
 //        sort(array);
-        sort2(array);
+//        sort2(array);
+        sort3(array);
         System.out.println(Arrays.toString(array));
     }
 }

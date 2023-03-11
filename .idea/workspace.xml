@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="leetcode494">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/sorting_algorithm/BubbleSort.java" afterDir="false" />
+    <list default="true" id="9143047a-7f2c-44b7-bb4b-445e68615625" name="Changes" comment="冒泡排序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xj/sft/sorting_algorithm/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xj/sft/sorting_algorithm/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +173,7 @@
       <workItem from="1678092550809" duration="573000" />
       <workItem from="1678162776764" duration="606000" />
       <workItem from="1678349051770" duration="5343000" />
-      <workItem from="1678510021665" duration="323000" />
+      <workItem from="1678510021665" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode509">
       <created>1676865380880</created>
@@ -266,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678093098483</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="冒泡排序">
+      <created>1678510380218</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678510380218</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +333,7 @@
     <MESSAGE value="leetcode416" />
     <MESSAGE value="leetcode1049" />
     <MESSAGE value="leetcode494" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode494" />
+    <MESSAGE value="冒泡排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡排序" />
   </component>
 </project>
