@@ -41,9 +41,21 @@ public class InsertSort {
         }
     }
     
+    // 20230424
+    private static void insertSort3(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            int insertValue = array[i];
+            int j = i - 1;
+            for (;(j >= 0) && (insertValue < array[j]); j--) {
+                array[j + 1] = array[j];
+            }
+            array[j + 1] = insertValue;
+        }
+    }
+    
     public static void main(String[] args) {
         int[] arr = new int[]{12,3,33,59,1,0,-1,20};
-        insertSort2(arr);
+        insertSort3(arr);
         System.out.println(Arrays.toString(arr));
     }
 }

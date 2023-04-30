@@ -222,6 +222,8 @@ public class QuickSort {
         return mark;
     }
     
+    
+    
     public static void main(String[] args) {
         int[] array = new int[]{4,4,6,5,3,2,8,1};
         quickSort2(array, 0, array.length - 1);

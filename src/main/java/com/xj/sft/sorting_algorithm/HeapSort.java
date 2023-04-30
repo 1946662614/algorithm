@@ -137,9 +137,41 @@ public class HeapSort {
         }
     }
     
+    // 20230423
+    private static void downAdjust3(int[] array, int parentIndex, int length) {
+        int tmp = array[parentIndex];
+        int childIndex = 2 * parentIndex + 1;
+        while (childIndex < length) {
+            if (childIndex + 1 < length && array[childIndex + 1] > array[childIndex]) {
+                childIndex++;
+            }
+            if (tmp >= array[childIndex]) {
+                break;
+            }
+            
+            array[parentIndex] = array[childIndex];
+            parentIndex = childIndex;
+            childIndex = childIndex * 2 + 1;
+        }
+    }
+    private static void heapSort3(int[] array) {
+        // 无序数组构建成最大堆
+        for (int i = (array.length - 2) / 2; i >= 0 ; i--) {
+            downAdjust2(array,i, array.length);
+        }
+        // 循环删除堆顶元素，移动到集合尾部，调整产生新的堆
+        for (int i = array.length - 1; i > 0 ; i--) {
+            int tmp = array[i];
+            array[i] = array[0];
+            array[0] = tmp;
+            downAdjust2(array,0,i);
+        }
+        
+    }
+    
     public static void main(String[] args) {
         int[] arr = new int[]{1,3,2,6,5,7,8,9,0,10,1};
-        heapSort2(arr);
+        heapSort3(arr);
         System.out.println(Arrays.toString(arr));
     }
 }

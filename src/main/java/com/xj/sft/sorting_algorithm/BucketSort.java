@@ -107,6 +107,7 @@ public class BucketSort {
     }
     
     // 20230405桶排序练习
+    // 20230421桶排序练习
     private static double[] sort3(double[] array) {
         // 1.计算最大值最小值，差值
         double max = array[0];
@@ -143,8 +144,11 @@ public class BucketSort {
                 sortedArray[index++] = ele;
             }
         }
+        
         return sortedArray;
     }
+    
+    
     
     public static void main(String[] args) {
         double[] arr = new double[]{4.12,6.421,0.0023,2.123,8.133,4.155,10.08};

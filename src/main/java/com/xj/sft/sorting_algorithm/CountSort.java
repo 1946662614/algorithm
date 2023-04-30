@@ -184,10 +184,44 @@ public class CountSort {
         return sortedArray;
     }
     
+    // 20230422计数排序练习
+    private static int[] countSort6(int[] array){
+        // 1.最大值最小值，差值
+        int max = array[0];
+        int min = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < min) {
+                min = array[i];
+            }
+            if (array[i] > max) {
+                max = array[i];
+            }
+        }
+        int d = max - min;
+    
+        // 2.创建统计数组并统计元素个数
+        int[] countArray = new int[d + 1];
+        for (int i = 0; i < array.length; i++) {
+            countArray[array[i] - min]++;
+        }
+        // 3.统计数组变形
+        for (int i = 1; i < countArray.length; i++) {
+            countArray[i] += countArray[i - 1];
+        }
+        // 4.倒序遍历原始数组
+        int[] sortedArray = new int[array.length];
+        for (int i = array.length - 1; i >= 0 ; i--) {
+            sortedArray[countArray[array[i] - min] - 1] = array[i];
+            countArray[array[i] - min]--;
+        }
+        return sortedArray;
+    }
+    
+    
     public static void main(String[] args) {
         int[] arr = new int[]{1,4,2,6,8,4,5,7,0,10,3,9,9};
         int[] arr1 = new int[]{95,94,91,98,99,90,93,91,92,93,1};
-        int[] sortedArray = countSort5(arr1);
+        int[] sortedArray = countSort6(arr1);
         System.out.println(Arrays.toString(sortedArray));
     }
     
